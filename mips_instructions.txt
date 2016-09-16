@@ -1,0 +1,15 @@
+R add rd rs rt 000000 rs rt rd 00000 100000
+R addu rd rs rt 000000 rs rt rd 00000 100001
+R and rd rs rt 000000 rs rt rd 00000 100100
+R slt rd rs rt 000000 rs rt rd 00000 101010
+R sll rd rt shamt 000000 rs rt rd shamt 000000
+R srl rd rt shamt 000000 rs rt rd shamt 000010
+I addi rd rs imm 001000 rs rd imm
+I addiu rd rs imm 001001 rs rd imm
+I andi rd rs imm 001100 rs rd imm
+I sltiu rd rs imm 001011 rs rd imm
+I beq rd rs label 000100 rs rd label
+I bne rd rs label 000101 rs rd label
+I lw rd address 100011 rs rd address
+I sw rd address 101011 rs rd address
+J j target 	000010 target
